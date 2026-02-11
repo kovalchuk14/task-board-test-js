@@ -1,0 +1,28 @@
+.column {
+    width: 300px;
+    place-items: center;
+}
+
+.cardsContainer {
+    margin-top: 10px;
+    background-color: darkgray;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 300px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    scrollbar-color: aqua darkgray;
+    scrollbar-width: thin;
+}
+
+.addCard {
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 62px;
+    cursor: pointer;
+}

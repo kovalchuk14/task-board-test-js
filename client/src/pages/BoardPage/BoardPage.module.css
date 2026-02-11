@@ -1,0 +1,50 @@
+.aqua {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: aqua;
+    width: 750px;
+}
+
+.columnsContainer {
+    margin-top: 15px;
+    display: flex;
+    gap: 16px;
+}
+
+.pink {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.searchContainer {
+    display: flex;
+    gap: 15px;
+}
+
+.input {
+    padding-left: 15px;
+    width: 100%;
+}
+
+.button {
+    width: 200px;
+}
+
+.boardInfoContainer {
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 12px;
+    padding: 8px 15px;
+    margin-top: 5px;
+}
+
+.actions {
+    display: flex;
+    gap: 5px;
+    justify-content: end;
+}

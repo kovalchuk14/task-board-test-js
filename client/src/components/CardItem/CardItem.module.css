@@ -1,0 +1,28 @@
+.card {
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 8px;
+}
+
+.description,
+.title,
+.input,
+.textarea {
+    width: 188px;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.textarea {
+    margin-top: 16px;
+    height: 40px;
+    overflow-y: scroll;
+    scrollbar-color: gray white;
+    scrollbar-width: thin;
+}
+
+.actions {
+    display: flex;
+    gap: 5px;
+    justify-content: end;
+}
